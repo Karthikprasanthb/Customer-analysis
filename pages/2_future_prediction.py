@@ -19,7 +19,7 @@ import os
 # CONFIG
 # =====================================================
 BASE_DIR = os.path.dirname(__file__)
-DATA_FILE = os.path.join(BASE_DIR, "sales_data3.xlsx")
+DATA_FILE = os.path.join(BASE_DIR, "Sales_data3.xlsx")
 
 TARGET_CUSTOMERS = [
     "TechnipFMC Norge AS (KOS1)",
@@ -276,3 +276,4 @@ render_quarterly_section("Overall", [])
 render_quarterly_section("Ring", ["Ring"])
 render_quarterly_section("Material", ["Material"])
 render_quarterly_section("Ring + Material", ["Ring", "Material"])
+
