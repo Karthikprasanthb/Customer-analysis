@@ -52,7 +52,7 @@ import os
 # CONFIG
 # =====================================================
 BASE_DIR = os.path.dirname(__file__)
-DATA_FILE = os.path.join(BASE_DIR, "sales_data3.xlsx")
+DATA_FILE = os.path.join(BASE_DIR, "Sales_data3.xlsx")
 
 TARGET_CUSTOMERS = [
     "TechnipFMC Norge AS (KOS1)",
@@ -459,3 +459,4 @@ if not monthly_summary.empty:
     reflects **project-based and non-uniform procurement behavior**
     rather than consistent monthly ordering.
     """)
+
