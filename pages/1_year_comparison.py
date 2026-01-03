@@ -18,8 +18,8 @@ import os
 # =====================================================
 # CONFIG
 # =====================================================
-BASE_DIR = os.path.dirname(__file__)
-DATA_FILE = os.path.join(BASE_DIR, "Sales_data3.xlsx")
+DATA_FILE = "Sales_Data3.xlsx"
+
 
 TARGET_CUSTOMERS = [
     "TechnipFMC Norge AS (KOS1)",
@@ -478,5 +478,6 @@ for yr in selected_years:
 
 Demand pattern indicates **project-driven procurement** in {yr}.
 """)
+
 
 
