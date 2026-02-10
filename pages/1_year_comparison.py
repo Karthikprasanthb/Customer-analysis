@@ -44,7 +44,7 @@ df = load_data()
 # =====================================================
 # 🔒 MASK CUSTOMER NAME
 # =====================================================
-MASK_CUSTOMER_NAME = "KLINGER LIMITED"
+MASK_CUSTOMER_NAME = "DEMO "
 df["Customer"] = df["Customer"].replace({MASK_CUSTOMER_NAME: "Demo"})
 if "Demo" not in TARGET_CUSTOMERS:
     TARGET_CUSTOMERS.append("Demo")
@@ -469,6 +469,7 @@ for yr in selected_years:
 
 Demand pattern indicates **project-driven procurement** in {yr}.
 """)
+
 
 
 
