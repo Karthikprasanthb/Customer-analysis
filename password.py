@@ -3,8 +3,8 @@ import streamlit as st
 # -----------------------------
 # CHANGE THESE CREDENTIALS
 # -----------------------------
-ALLOWED_USER = "Asian"
-ALLOWED_PASS = "Asi@n@2026"
+ALLOWED_USER = "KARTHIK"
+ALLOWED_PASS = "KARTHIK@2026"
 
 def login_required():
     if "logged_in" not in st.session_state:
@@ -25,3 +25,4 @@ def login_required():
                 st.error("Invalid username or password ❌")
 
         st.stop()
+
