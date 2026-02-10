@@ -18,21 +18,12 @@ import os
 # =====================================================
 # CONFIG
 # =====================================================
-DATA_FILE = "Sales_Data3.xlsx"
+DATA_FILE = "Data.xlsx"
 
 
 TARGET_CUSTOMERS = [
-    "TechnipFMC Norge AS (KOS1)",
-    "TECHNIPFMC INDUSTRIES-SOLE PROPRIETORSHIP L.L.C. (7042)",
-    "TechnipFMC Canada Ltd (EWOD)",
-    "TechnipFMC Services Australia Ltd (EWAA)",
-    "TechnipFMC do Brasil Ltda (REMS - ESPB - Fassub)",
-    "TechnipFMC do Brasil Ltda (Macaé - EWBO)",
-    "TechnipFMC do Brasil Ltda (Fassub - EWBO)",
-    "TechnipFMC Services Australia Ltd (SFVA)",
-    "Stream-Flo Edmonton",
-    "Stream-Flo USA LLC",
-    "QUEST SEALING SOLUTION"
+    "ABCD SOLUTION"
+     "ALONE SOLUTION "
 ]
 
 # =====================================================
@@ -478,6 +469,7 @@ for yr in selected_years:
 
 Demand pattern indicates **project-driven procurement** in {yr}.
 """)
+
 
 
 
